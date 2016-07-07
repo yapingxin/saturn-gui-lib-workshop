@@ -11,12 +11,16 @@ Global
 		Debug Multithreaded|x86 = Debug Multithreaded|x86
 		Debug Singlethreaded|x64 = Debug Singlethreaded|x64
 		Debug Singlethreaded|x86 = Debug Singlethreaded|x86
+		Debug_DLL|x64 = Debug_DLL|x64
+		Debug_DLL|x86 = Debug_DLL|x86
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release Multithreaded|x64 = Release Multithreaded|x64
 		Release Multithreaded|x86 = Release Multithreaded|x86
 		Release Singlethreaded|x64 = Release Singlethreaded|x64
 		Release Singlethreaded|x86 = Release Singlethreaded|x86
+		Release_DLL|x64 = Release_DLL|x64
+		Release_DLL|x86 = Release_DLL|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
@@ -29,6 +33,10 @@ Global
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug Singlethreaded|x64.Build.0 = Debug Singlethreaded|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug Singlethreaded|x86.ActiveCfg = Debug Singlethreaded|Win32
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug Singlethreaded|x86.Build.0 = Debug Singlethreaded|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug_DLL|x64.ActiveCfg = Debug_DLL|x64
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug_DLL|x64.Build.0 = Debug_DLL|x64
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug_DLL|x86.ActiveCfg = Debug_DLL|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug_DLL|x86.Build.0 = Debug_DLL|Win32
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug|x64.ActiveCfg = Debug|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug|x64.Build.0 = Debug|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug|x86.ActiveCfg = Debug|Win32
@@ -41,6 +49,10 @@ Global
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release Singlethreaded|x64.Build.0 = Release Singlethreaded|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release Singlethreaded|x86.ActiveCfg = Release Singlethreaded|Win32
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release Singlethreaded|x86.Build.0 = Release Singlethreaded|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release_DLL|x64.ActiveCfg = Release_DLL|x64
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release_DLL|x64.Build.0 = Release_DLL|x64
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release_DLL|x86.ActiveCfg = Release_DLL|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release_DLL|x86.Build.0 = Release_DLL|Win32
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|x64.ActiveCfg = Release|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|x64.Build.0 = Release|x64
 		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|x86.ActiveCfg = Release|Win32
