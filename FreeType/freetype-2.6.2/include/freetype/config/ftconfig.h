@@ -384,12 +384,20 @@ FT_BEGIN_HEADER
 #endif /* !FT_BASE_DEF */
 
 
+#ifdef DLL_EXPORT
+#undef DLL_EXPORT
+#define DLL_EXPORT  __declspec(dllexport)
+#else
+#define DLL_EXPORT  __declspec(dllimport)
+#endif /* !DLL_EXPORT */
+
+
 #ifndef FT_EXPORT
 
 #ifdef __cplusplus
-#define FT_EXPORT( x )  extern "C"  x
+#define FT_EXPORT( x )  extern "C"  DLL_EXPORT  x
 #else
-#define FT_EXPORT( x )  extern  x
+#define FT_EXPORT( x )  extern  DLL_EXPORT  x
 #endif
 
 #endif /* !FT_EXPORT */
