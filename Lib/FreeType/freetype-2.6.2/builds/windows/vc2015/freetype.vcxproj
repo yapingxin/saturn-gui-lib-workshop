@@ -213,17 +213,17 @@
   <PropertyGroup>
     <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|Win32'">.\..\..\..\binary\VC2015\DLL\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|Win32'">.\..\..\..\binary\VC2015\Lib\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|Win32'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|Win32'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|Win32'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|Win32'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|Win32'">intermedia\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|Win32'">intermedia\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">.\..\..\..\binary\VC2015\DLL\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|x64'">.\..\..\..\binary\VC2015\Lib\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|x64'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|x64'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">intermedia\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|x64'">intermedia\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|Win32'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|Win32'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|x64'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
@@ -233,17 +233,17 @@
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug Singlethreaded|x64'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug Singlethreaded|x64'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|Win32'">.\..\..\..\binary\VC2015\DLL\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|Win32'">.\..\..\..\binary\VC2015\Lib\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|Win32'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|Win32'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|Win32'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|Win32'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|Win32'">intermedia\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|Win32'">intermedia\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|x64'">.\..\..\..\binary\VC2015\DLL\$(Platform)\</OutDir>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|x64'">.\..\..\..\binary\VC2015\Lib\$(Platform)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|x64'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|x64'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|x64'">.\..\..\..\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|x64'">.\..\..\..\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_DLL|x64'">intermedia\binary\VC2015\DLL\$(Platform)\$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_StaticLib|x64'">intermedia\binary\VC2015\Lib\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Multithreaded|Win32'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release Multithreaded|Win32'">.\..\..\..\binary\VC2015\$(Platform)\$(Configuration)\</IntDir>
     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release Multithreaded|x64'">.\..\..\..\binary\VC2015\$(Platform)\</OutDir>
@@ -313,11 +313,11 @@
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release Singlethreaded|Win32'" />
     <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release Singlethreaded|x64'" />
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">freetype262d</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|Win32'">freetype262d</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|Win32'">freetype262d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|Win32'">freetype262</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|Win32'">freetype262</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">freetype262d</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">freetype262d</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|x64'">freetype262d</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_DLL|x64'">freetype262</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_StaticLib|x64'">freetype262</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|Win32'">freetype262MTd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug Multithreaded|x64'">freetype262MTd</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug Singlethreaded|Win32'">freetype262STd</TargetName>
