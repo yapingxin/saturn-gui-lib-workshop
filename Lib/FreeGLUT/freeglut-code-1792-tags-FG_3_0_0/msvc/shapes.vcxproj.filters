@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\progs\demos\shapes\shapes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\progs\demos\shapes\glmatrix.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\progs\demos\shapes\glmatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B37B9FF1-131A-3267-86D0-5DD737DEA586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C6ECE107-3275-37DB-905C-CDC3CDE91E7D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,311 @@
+Determining if files unistd.h exist failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_f44af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:47 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_f44af.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f44af.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f44af.dir\Debug\cmTC_f44af.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f44af.dir\Debug\cmTC_f44af.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f44af.dir\Debug\\" /Fd"cmTC_f44af.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f44af.dir\Debug\\" /Fd"cmTC_f44af.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_f44af.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_f44af.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_f44af.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_f44af.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.57
+
+Source:
+/* */
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/time.h exist failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_ae480.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:48 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_ae480.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ae480.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ae480.dir\Debug\cmTC_ae480.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ae480.dir\Debug\cmTC_ae480.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae480.dir\Debug\\" /Fd"cmTC_ae480.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae480.dir\Debug\\" /Fd"cmTC_ae480.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_ae480.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_ae480.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_ae480.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/time.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_ae480.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.49
+
+Source:
+/* */
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/param.h exist failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_cb0f0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:50 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_cb0f0.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_cb0f0.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_cb0f0.dir\Debug\cmTC_cb0f0.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_cb0f0.dir\Debug\cmTC_cb0f0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb0f0.dir\Debug\\" /Fd"cmTC_cb0f0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb0f0.dir\Debug\\" /Fd"cmTC_cb0f0.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_cb0f0.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_cb0f0.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_cb0f0.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/param.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_cb0f0.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.47
+
+Source:
+/* */
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/ioctl.h exist failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_0922c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:51 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_0922c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_0922c.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0922c.dir\Debug\cmTC_0922c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_0922c.dir\Debug\cmTC_0922c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0922c.dir\Debug\\" /Fd"cmTC_0922c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0922c.dir\Debug\\" /Fd"cmTC_0922c.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_0922c.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_0922c.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_0922c.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_0922c.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.51
+
+Source:
+/* */
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files usbhid.h exist failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_fdb43.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:53 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_fdb43.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_fdb43.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_fdb43.dir\Debug\cmTC_fdb43.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_fdb43.dir\Debug\cmTC_fdb43.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fdb43.dir\Debug\\" /Fd"cmTC_fdb43.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fdb43.dir\Debug\\" /Fd"cmTC_fdb43.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+  
+  CheckIncludeFiles.c
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'usbhid.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_fdb43.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_fdb43.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_fdb43.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'usbhid.h': No such file or directory [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_fdb43.vcxproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.53
+
+Source:
+/* */
+#include <usbhid.h>
+
+
+int main(void){return 0;}
+
+Determining if the function gettimeofday exists failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_b4120.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:54 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_b4120.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_b4120.dir\Debug\cmTC_b4120.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_b4120.dir\Debug\cmTC_b4120.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4120.dir\Debug\\" /Fd"cmTC_b4120.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Application\x86\CMake\v3.5.2\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=gettimeofday /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b4120.dir\Debug\\" /Fd"cmTC_b4120.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Application\x86\CMake\v3.5.2\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b4120.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Application\x86\Visual_Leak_Detector\lib\Win32 kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp/Debug/cmTC_b4120.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp/Debug/cmTC_b4120.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_b4120.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj]
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b4120.exe : fatal error LNK1120: 1 unresolved externals [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _gettimeofday referenced in function _main [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj]
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_b4120.exe : fatal error LNK1120: 1 unresolved externals [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_b4120.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.92
+
+
+Determining if the function XParseGeometry exists failed with the following output:
+Change Dir: C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" "cmTC_87b78.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=14.0"
+Microsoft (R) Build Engine version 14.0.23107.0
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 7/8/2016 1:07:55 PM.
+The target "BeforeGenerateProjectPriFile" listed in a BeforeTargets attribute at "C:\Program Files (x86)\MSBuild\Microsoft\NuGet\Microsoft.NuGet.targets (156,61)" does not exist in the project, and will be ignored.
+Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_87b78.dir\Debug\".
+  Creating directory "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_87b78.dir\Debug\cmTC_87b78.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_87b78.dir\Debug\cmTC_87b78.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87b78.dir\Debug\\" /Fd"cmTC_87b78.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Application\x86\CMake\v3.5.2\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.00.23026 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IC:\Application\x86\Visual_Leak_Detector\include /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=XParseGeometry /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87b78.dir\Debug\\" /Fd"cmTC_87b78.dir\Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Application\x86\CMake\v3.5.2\share\cmake-3.5\Modules\CheckFunctionExists.c"
+  
+  CheckFunctionExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_87b78.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Application\x86\Visual_Leak_Detector\lib\Win32 kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp/Debug/cmTC_87b78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/SVN/Github/YapingXin/saturn-gui-lib-workshop/trunk/Lib/FreeGLUT/freeglut-code-1792-tags-FG_3_0_0/msvc/CMakeFiles/CMakeTmp/Debug/cmTC_87b78.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_87b78.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _XParseGeometry referenced in function _main [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj]
+C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_87b78.exe : fatal error LNK1120: 1 unresolved externals [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj]
+Done Building Project "C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _XParseGeometry referenced in function _main [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj]
+  C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\Debug\cmTC_87b78.exe : fatal error LNK1120: 1 unresolved externals [C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\msvc\CMakeFiles\CMakeTmp\cmTC_87b78.vcxproj]
+
+    0 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.81
+
+

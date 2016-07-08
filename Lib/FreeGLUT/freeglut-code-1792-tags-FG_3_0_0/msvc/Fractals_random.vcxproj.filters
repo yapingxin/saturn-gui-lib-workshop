@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\progs\demos\Fractals_random\fractals_random.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\SVN\Github\YapingXin\saturn-gui-lib-workshop\trunk\Lib\FreeGLUT\freeglut-code-1792-tags-FG_3_0_0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B37B9FF1-131A-3267-86D0-5DD737DEA586}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
