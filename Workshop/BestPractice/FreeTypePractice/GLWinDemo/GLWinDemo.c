@@ -2,6 +2,7 @@
 //
 
 #include "stdafx.h"
+#include <windows.h>		// Header File For Windows
 #include "GLWinDemo.h"
 
 #define MAX_LOADSTRING 100
@@ -17,19 +18,34 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
-int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
+
+BOOL	keys[256];			// Array Used For The Keyboard Routine
+BOOL	active = TRUE;		// Window Active Flag Set To TRUE By Default
+BOOL	fullscreen = TRUE;	// Fullscreen Flag Set To Fullscreen Mode By Default
+
+
+int APIENTRY WinMain(_In_ HINSTANCE hInstance,
                      _In_opt_ HINSTANCE hPrevInstance,
-                     _In_ LPWSTR    lpCmdLine,
+                     _In_ LPTSTR    lpCmdLine,
                      _In_ int       nCmdShow)
 {
     UNREFERENCED_PARAMETER(hPrevInstance);
     UNREFERENCED_PARAMETER(lpCmdLine);
 
+	MSG		msg;									// Windows Message Structure
+	BOOL	done = FALSE;							// Bool Variable To Exit Loop
+
+	// Ask The User Which Screen Mode They Prefer
+	if (MessageBox(NULL, TEXT("Would You Like To Run In Fullscreen Mode?"), TEXT("Start FullScreen?"), MB_YESNO | MB_ICONQUESTION) == IDNO)
+	{
+		fullscreen = FALSE; // Windowed Mode
+	}
+
     // TODO: Place code here.
 
     // Initialize global strings
-    LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
-    LoadStringW(hInstance, IDC_GLWINDEMO, szWindowClass, MAX_LOADSTRING);
+    LoadString(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
+    LoadString(hInstance, IDC_GLWINDEMO, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
 
     // Perform application initialization:
@@ -39,8 +55,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     }
 
     HACCEL hAccelTable = LoadAccelerators(hInstance, MAKEINTRESOURCE(IDC_GLWINDEMO));
-
-    MSG msg;
 
     // Main message loop:
     while (GetMessage(&msg, NULL, 0, 0))
