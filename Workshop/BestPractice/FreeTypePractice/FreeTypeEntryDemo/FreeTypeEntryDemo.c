@@ -15,33 +15,33 @@ int main()
 {
 	unsigned int returnCode = 0;
 
-	FT_Library pFTLib = NULL;
-	FT_Face pFTFace = NULL;
+	FT_Library ft_lib = NULL;
+	FT_Face ft_face = NULL;
 	FT_Error error = 0;
 
 	//Init FreeType Lib to manage memory
-	error = FT_Init_FreeType(&pFTLib);
+	error = FT_Init_FreeType(&ft_lib);
 	if (error)
 	{
 		returnCode = 0x01;
 		printf("There is some error when calling FT_Init_FreeType().");
-		goto Free_FTLib;
+		goto Free_FT_Lib;
 	}
 
 	//create font face from font file
-	error = FT_New_Face(pFTLib, FontLibFilePath, 0, &pFTFace);
+	error = FT_New_Face(ft_lib, FontLibFilePath, 0, &ft_face);
 	if (error)
 	{
 		returnCode = 0x02;
 		printf(" Create font face failed.");
-		goto Free_FTFace;
+		goto Free_FT_Face;
 	}
 
-	FT_Set_Char_Size(pFTFace, 16 << 6, 16 << 6, 300, 300);
+	FT_Set_Char_Size(ft_face, 8 << 6, 8 << 6, 300, 300);
 	FT_Glyph glyph;
 	FT_ULong charcode = 0x6668; // load glyph -- HZ: Chen
-	FT_Load_Glyph(pFTFace, FT_Get_Char_Index(pFTFace, charcode), FT_LOAD_DEFAULT);
-	error = FT_Get_Glyph(pFTFace->glyph, &glyph);
+	FT_Load_Glyph(ft_face, FT_Get_Char_Index(ft_face, charcode), FT_LOAD_DEFAULT);
+	error = FT_Get_Glyph(ft_face->glyph, &glyph);
 	if (error)
 	{
 		returnCode = 0x03;
@@ -67,13 +67,13 @@ Free_glyph:
 	FT_Done_Glyph(glyph);
 	glyph = NULL;
 
-Free_FTFace:
-	FT_Done_Face(pFTFace);
-	pFTFace = NULL;
+Free_FT_Face:
+	FT_Done_Face(ft_face);
+	ft_face = NULL;
 
-Free_FTLib:
-	FT_Done_FreeType(pFTLib);
-	pFTLib = NULL;
+Free_FT_Lib:
+	FT_Done_FreeType(ft_lib);
+	ft_lib = NULL;
 
 	return returnCode;
 }
