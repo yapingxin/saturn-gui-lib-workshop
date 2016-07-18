@@ -5,6 +5,13 @@
 #include <stdlib.h>
 #include <GL/glut.h>
 
+#include <ft2build.h>
+#include FT_FREETYPE_H
+#include <freetype/freetype.h>
+#include <freetype/ftglyph.h>
+
+#include <iostream>
+
 static void keyboard(unsigned char key, int x, int y);
 static void display(void);
 
