@@ -262,6 +262,9 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
     <ClInclude Include="freetype\include\freetype\tttags.h" />
     <ClInclude Include="freetype\include\freetype\ttunpat.h" />
     <ClInclude Include="freetype\include\ft2build.h" />
+    <ClInclude Include="freetype\src\base\basepic.h" />
+    <ClInclude Include="freetype\src\base\ftbase.h" />
+    <ClInclude Include="freetype\src\base\md5.h" />
     <ClInclude Include="FTGL_src\FTCharmap.h" />
     <ClInclude Include="FTGL_src\FTCharToGlyphIndexMap.h" />
     <ClInclude Include="FTGL_src\FTContour.h" />
@@ -318,6 +321,44 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="freetype\src\base\basepic.c" />
+    <ClCompile Include="freetype\src\base\ftadvanc.c" />
+    <ClCompile Include="freetype\src\base\ftapi.c" />
+    <ClCompile Include="freetype\src\base\ftbase.c" />
+    <ClCompile Include="freetype\src\base\ftbbox.c" />
+    <ClCompile Include="freetype\src\base\ftbdf.c" />
+    <ClCompile Include="freetype\src\base\ftbitmap.c" />
+    <ClCompile Include="freetype\src\base\ftcalc.c" />
+    <ClCompile Include="freetype\src\base\ftcid.c" />
+    <ClCompile Include="freetype\src\base\ftdbgmem.c" />
+    <ClCompile Include="freetype\src\base\ftdebug.c" />
+    <ClCompile Include="freetype\src\base\ftfntfmt.c" />
+    <ClCompile Include="freetype\src\base\ftfstype.c" />
+    <ClCompile Include="freetype\src\base\ftgasp.c" />
+    <ClCompile Include="freetype\src\base\ftgloadr.c" />
+    <ClCompile Include="freetype\src\base\ftglyph.c" />
+    <ClCompile Include="freetype\src\base\ftgxval.c" />
+    <ClCompile Include="freetype\src\base\ftinit.c" />
+    <ClCompile Include="freetype\src\base\ftlcdfil.c" />
+    <ClCompile Include="freetype\src\base\ftmac.c" />
+    <ClCompile Include="freetype\src\base\ftmm.c" />
+    <ClCompile Include="freetype\src\base\ftobjs.c" />
+    <ClCompile Include="freetype\src\base\ftotval.c" />
+    <ClCompile Include="freetype\src\base\ftoutln.c" />
+    <ClCompile Include="freetype\src\base\ftpatent.c" />
+    <ClCompile Include="freetype\src\base\ftpfr.c" />
+    <ClCompile Include="freetype\src\base\ftpic.c" />
+    <ClCompile Include="freetype\src\base\ftrfork.c" />
+    <ClCompile Include="freetype\src\base\ftsnames.c" />
+    <ClCompile Include="freetype\src\base\ftstream.c" />
+    <ClCompile Include="freetype\src\base\ftstroke.c" />
+    <ClCompile Include="freetype\src\base\ftsynth.c" />
+    <ClCompile Include="freetype\src\base\ftsystem.c" />
+    <ClCompile Include="freetype\src\base\fttrigon.c" />
+    <ClCompile Include="freetype\src\base\fttype1.c" />
+    <ClCompile Include="freetype\src\base\ftutil.c" />
+    <ClCompile Include="freetype\src\base\ftwinfnt.c" />
+    <ClCompile Include="freetype\src\base\md5.c" />
     <ClCompile Include="FTGL_src\FTBuffer.cpp" />
     <ClCompile Include="FTGL_src\FTCharmap.cpp" />
     <ClCompile Include="FTGL_src\FTContour.cpp" />
@@ -355,6 +396,10 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="freetype\src\base\Jamfile" />
+    <None Include="freetype\src\base\rules.mk" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
