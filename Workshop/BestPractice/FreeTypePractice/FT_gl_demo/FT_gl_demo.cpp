@@ -11,6 +11,7 @@
 #include <freetype/ftglyph.h>
 
 #include <iostream>
+#include <FTGL/ftgl.h>
 
 static void keyboard(unsigned char key, int x, int y);
 static void display(void);
