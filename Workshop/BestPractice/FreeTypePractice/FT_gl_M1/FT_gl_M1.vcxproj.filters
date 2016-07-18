@@ -93,120 +93,6 @@
     <ClCompile Include="FTGL_src\FTVectoriser.cpp">
       <Filter>FTGL_src</Filter>
     </ClCompile>
-    <ClCompile Include="freetype\src\base\basepic.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftadvanc.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftapi.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftbase.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftbbox.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftbdf.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftbitmap.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftcalc.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftcid.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftdbgmem.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftdebug.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftfntfmt.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftfstype.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftgasp.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftgloadr.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftglyph.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftgxval.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftinit.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftlcdfil.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftmac.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftmm.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftobjs.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftotval.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftoutln.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftpatent.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftpfr.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftpic.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftrfork.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftsnames.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftstream.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftstroke.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftsynth.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftsystem.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\fttrigon.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\fttype1.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftutil.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\ftwinfnt.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
-    <ClCompile Include="freetype\src\base\md5.c">
-      <Filter>freetype\src\base</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
@@ -631,15 +517,6 @@
     <ClInclude Include="freetype\include\freetype\ttunpat.h">
       <Filter>freetype\include\freetype</Filter>
     </ClInclude>
-    <ClInclude Include="freetype\src\base\basepic.h">
-      <Filter>freetype\src\base</Filter>
-    </ClInclude>
-    <ClInclude Include="freetype\src\base\ftbase.h">
-      <Filter>freetype\src\base</Filter>
-    </ClInclude>
-    <ClInclude Include="freetype\src\base\md5.h">
-      <Filter>freetype\src\base</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -684,13 +561,5 @@
     <Filter Include="freetype\include\freetype\internal\services">
       <UniqueIdentifier>{5b3d5c6e-b0a9-481b-b431-162b1e991b90}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="freetype\src\base\Jamfile">
-      <Filter>freetype\src\base</Filter>
-    </None>
-    <None Include="freetype\src\base\rules.mk">
-      <Filter>freetype\src\base</Filter>
-    </None>
   </ItemGroup>
 </Project>
