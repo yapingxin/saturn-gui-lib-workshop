@@ -83,12 +83,12 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>NDEBUG;FTGL_LIBRARY_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;NDEBUG;FTGL_LIBRARY_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -107,9 +107,9 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
       <PrecompiledHeader>Use</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>NDEBUG;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;NDEBUG;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -124,13 +124,13 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -153,9 +153,9 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -173,10 +173,92 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FTGL_src\FTCharmap.h" />
+    <ClInclude Include="FTGL_src\FTCharToGlyphIndexMap.h" />
+    <ClInclude Include="FTGL_src\FTContour.h" />
+    <ClInclude Include="FTGL_src\FTFace.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTBitmapFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTBufferFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTExtrudeFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTOutlineFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTPixmapFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTPolygonFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTFont\FTTextureFontImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyphContainer.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTBitmapGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTBufferGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTExtrudeGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTOutlineGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTPixmapGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTPolygonGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGlyph\FTTextureGlyphImpl.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTBBox.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTBitmapGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTBuffer.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTBufferFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTBufferGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTExtrdGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\ftgl.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGLBitmapFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGLExtrdFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGLOutlineFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGLPixmapFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGLPolygonFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGLTextureFont.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTLayout.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTOutlineGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTPixmapGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTPoint.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTPolyGlyph.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTSimpleLayout.h" />
+    <ClInclude Include="FTGL_src\FTGL\FTTextureGlyph.h" />
+    <ClInclude Include="FTGL_src\FTInternals.h" />
+    <ClInclude Include="FTGL_src\FTLayout\FTLayoutImpl.h" />
+    <ClInclude Include="FTGL_src\FTLayout\FTSimpleLayoutImpl.h" />
+    <ClInclude Include="FTGL_src\FTLibrary.h" />
+    <ClInclude Include="FTGL_src\FTList.h" />
+    <ClInclude Include="FTGL_src\FTSize.h" />
+    <ClInclude Include="FTGL_src\FTUnicode.h" />
+    <ClInclude Include="FTGL_src\FTVector.h" />
+    <ClInclude Include="FTGL_src\FTVectoriser.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FTGL_src\FTBuffer.cpp" />
+    <ClCompile Include="FTGL_src\FTCharmap.cpp" />
+    <ClCompile Include="FTGL_src\FTContour.cpp" />
+    <ClCompile Include="FTGL_src\FTFace.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTBitmapFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTBufferFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTExtrudeFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTFontGlue.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTOutlineFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTPixmapFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTPolygonFont.cpp" />
+    <ClCompile Include="FTGL_src\FTFont\FTTextureFont.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyphContainer.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTBitmapGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTBufferGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTExtrudeGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTGlyphGlue.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTOutlineGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTPixmapGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTPolygonGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTGlyph\FTTextureGlyph.cpp" />
+    <ClCompile Include="FTGL_src\FTLayout\FTLayout.cpp" />
+    <ClCompile Include="FTGL_src\FTLayout\FTLayoutGlue.cpp" />
+    <ClCompile Include="FTGL_src\FTLayout\FTSimpleLayout.cpp" />
+    <ClCompile Include="FTGL_src\FTLibrary.cpp" />
+    <ClCompile Include="FTGL_src\FTPoint.cpp" />
+    <ClCompile Include="FTGL_src\FTSize.cpp" />
+    <ClCompile Include="FTGL_src\FTVectoriser.cpp" />
     <ClCompile Include="FT_gl_demo.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
