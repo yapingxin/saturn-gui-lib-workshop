@@ -13,8 +13,27 @@
 #include <iostream>
 #include <FTGL/ftgl.h>
 
+using namespace std;
+
+const char* FontLibFilePath = "C:\\Pub\\FontLib\\SourceHanSansCN\\SourceHanSansCN-Light.otf";
+
 static void keyboard(unsigned char key, int x, int y);
 static void display(void);
+
+FTGLPixmapFont *freeTypeFont = NULL;
+
+void init(void)
+{
+	glShadeModel(GL_SMOOTH); // Enable Shadow Smooth Mode
+	glClearDepth(1.0f); // Set Buffer Depth
+	glEnable(GL_DEPTH_TEST);
+	glDepthFunc(GL_LEQUAL);
+
+	// Initialize FTGL
+	freeTypeFont = new FTGLPixmapFont(FontLibFilePath);
+
+}
+
 
 int main(int argc, char* argv[])
 {
