@@ -273,5 +273,8 @@
     <Filter Include="FTGL_src\FTLayout">
       <UniqueIdentifier>{827510c4-d939-4974-a7c7-3a447422ec54}</UniqueIdentifier>
     </Filter>
+    <Filter Include="freetype">
+      <UniqueIdentifier>{bd42dc17-6c0a-486d-ae8d-c14afb9932ae}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>
