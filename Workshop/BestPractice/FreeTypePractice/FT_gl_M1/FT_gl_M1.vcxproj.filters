@@ -253,6 +253,24 @@
     <ClInclude Include="FTGL_src\FTVectoriser.h">
       <Filter>FTGL_src</Filter>
     </ClInclude>
+    <ClInclude Include="freetype\include\ft2build.h">
+      <Filter>freetype\include</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftconfig.h">
+      <Filter>freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftheader.h">
+      <Filter>freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftmodule.h">
+      <Filter>freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftoption.h">
+      <Filter>freetype\include\freetype\config</Filter>
+    </ClInclude>
+    <ClInclude Include="freetype\include\freetype\config\ftstdlib.h">
+      <Filter>freetype\include\freetype\config</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="ReadMe.txt" />
@@ -275,6 +293,18 @@
     </Filter>
     <Filter Include="freetype">
       <UniqueIdentifier>{bd42dc17-6c0a-486d-ae8d-c14afb9932ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freetype\include">
+      <UniqueIdentifier>{060ace97-b47b-477c-95d2-cb6130732df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freetype\include\freetype">
+      <UniqueIdentifier>{ed566e36-1571-4113-bc2c-e90a74bb2341}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freetype\include\freetype\config">
+      <UniqueIdentifier>{27923521-4f2d-44da-8aac-cccd6b7517b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="freetype\src">
+      <UniqueIdentifier>{503336f9-7c4e-4137-a724-8e653311973f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

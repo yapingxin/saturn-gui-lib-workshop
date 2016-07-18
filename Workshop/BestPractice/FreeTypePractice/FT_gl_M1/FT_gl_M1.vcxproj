@@ -173,6 +173,12 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="freetype\include\freetype\config\ftconfig.h" />
+    <ClInclude Include="freetype\include\freetype\config\ftheader.h" />
+    <ClInclude Include="freetype\include\freetype\config\ftmodule.h" />
+    <ClInclude Include="freetype\include\freetype\config\ftoption.h" />
+    <ClInclude Include="freetype\include\freetype\config\ftstdlib.h" />
+    <ClInclude Include="freetype\include\ft2build.h" />
     <ClInclude Include="FTGL_src\FTCharmap.h" />
     <ClInclude Include="FTGL_src\FTCharToGlyphIndexMap.h" />
     <ClInclude Include="FTGL_src\FTContour.h" />

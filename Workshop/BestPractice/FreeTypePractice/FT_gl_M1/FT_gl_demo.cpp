@@ -23,7 +23,7 @@ static void init(void);
 static void reshape(int w, int h);
 
 FTGLPixmapFont *freeTypeFont = NULL;
-wchar_t str[128] = L"FTGL 中文输出测试";
+wchar_t str[128] = L"FTGL 中文输出测试 _そしてURL待クロ";
 
 
 int main(int argc, char** argv)
