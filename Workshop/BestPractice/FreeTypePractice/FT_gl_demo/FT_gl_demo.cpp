@@ -80,6 +80,7 @@ int main(int argc, char** argv)
 	glutInitWindowSize(600, 600);
 	glutInitWindowPosition(100, 100);
 	glutCreateWindow("FreeType multilingual display");
+	glutKeyboardFunc(&keyboard);
 	init();
 	glutReshapeFunc(reshape);
 	glutDisplayFunc(display);
