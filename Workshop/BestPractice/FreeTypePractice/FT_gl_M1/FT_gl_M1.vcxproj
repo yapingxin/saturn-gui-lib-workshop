@@ -88,13 +88,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;NDEBUG;FTGL_LIBRARY_STATIC;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;.\FTGL_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x86;%(AdditionalLibraryDirectories);$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\;$(FTGL)\msvc\build\StaticLib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>freeglut.lib;freetype262.lib;ftgl_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x86;$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;freetype262.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(FreeGLUT)\bin\x86\freeglut.dll" "$(TargetDir)"
@@ -109,13 +109,13 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;NDEBUG;_DEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;.\FTGL_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x64;%(AdditionalLibraryDirectories);$(FreeType)\binary\VC2015\Lib\$(Platform)\$(Configuration)_StaticLib\;$(FTGL)\msvc\build\StaticDLL\$(Platform)\$(Configuration)\;$(FTGL)\msvc\build\StaticDLL\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>freeglut.lib;freetype262.lib;ftgl_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x64;$(FreeType)\binary\VC2015\Lib\$(Platform)\$(Configuration)_StaticLib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;freetype262.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(FreeGLUT)\bin\x64\freeglut.dll" "$(TargetDir)"</Command>
@@ -130,15 +130,15 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;.\FTGL_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x86;%(AdditionalLibraryDirectories);$(FreeType)\binary\VC2015\Lib\$(Platform)\$(Configuration)_StaticLib\;$(FTGL)\msvc\build\StaticLib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>freeglut.lib;freetype262.lib;ftgl_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x86;$(FreeType)\binary\VC2015\Lib\$(Platform)\$(Configuration)_StaticLib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;freetype262.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(FreeGLUT)\bin\x86\freeglut.dll" "$(TargetDir)"
@@ -155,15 +155,15 @@ copy "$(FreeType)\binary\VC2015\DLL\$(Platform)\$(Configuration)_DLL\freetype262
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;NDEBUG;_CONSOLE;%(PreprocessorDefinitions);FTGL_LIBRARY_STATIC;FTGL_LIBRARY_STATIC</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>.\FTGL_src;$(FreeGLUT)\include;$(FreeType)\include;$(FTGL)\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(FreeGLUT)\include;$(FreeType)\include;.\FTGL_src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x64;%(AdditionalLibraryDirectories);$(FreeType)\binary\VC2015\Lib\$(Platform)\$(Configuration)_StaticLib\;$(FTGL)\msvc\build\StaticDLL\$(Platform)\$(Configuration)\;$(FTGL)\msvc\build\StaticDLL\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>freeglut.lib;freetype262.lib;ftgl_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(FreeGLUT)\lib\x64;$(FreeType)\binary\VC2015\Lib\$(Platform)\$(Configuration)_StaticLib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;freetype262.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>copy "$(FreeGLUT)\bin\x64\freeglut.dll" "$(TargetDir)"</Command>
