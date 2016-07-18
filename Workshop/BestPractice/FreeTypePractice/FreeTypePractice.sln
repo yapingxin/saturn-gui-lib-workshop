@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeTypeEntryDemo", "FreeTy
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLWinDemo", "GLWinDemo\GLWinDemo.vcxproj", "{8A1ACEDF-577D-40F0-8AFA-00ADCBF3CE26}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FreeType_gl_demo", "FreeType_gl_demo\FreeType_gl_demo.vcxproj", "{F3CA071B-195C-483E-AA22-23C333670687}"
-EndProject
 Global
 	GlobalSection(SubversionScc) = preSolution
 		Svn-Managed = True
@@ -37,14 +35,6 @@ Global
 		{8A1ACEDF-577D-40F0-8AFA-00ADCBF3CE26}.Release|x64.Build.0 = Release|x64
 		{8A1ACEDF-577D-40F0-8AFA-00ADCBF3CE26}.Release|x86.ActiveCfg = Release|Win32
 		{8A1ACEDF-577D-40F0-8AFA-00ADCBF3CE26}.Release|x86.Build.0 = Release|Win32
-		{F3CA071B-195C-483E-AA22-23C333670687}.Debug|x64.ActiveCfg = Debug|x64
-		{F3CA071B-195C-483E-AA22-23C333670687}.Debug|x64.Build.0 = Debug|x64
-		{F3CA071B-195C-483E-AA22-23C333670687}.Debug|x86.ActiveCfg = Debug|Win32
-		{F3CA071B-195C-483E-AA22-23C333670687}.Debug|x86.Build.0 = Debug|Win32
-		{F3CA071B-195C-483E-AA22-23C333670687}.Release|x64.ActiveCfg = Release|x64
-		{F3CA071B-195C-483E-AA22-23C333670687}.Release|x64.Build.0 = Release|x64
-		{F3CA071B-195C-483E-AA22-23C333670687}.Release|x86.ActiveCfg = Release|Win32
-		{F3CA071B-195C-483E-AA22-23C333670687}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
