@@ -2,10 +2,48 @@
 //
 
 #include "stdafx.h"
+#include <stdlib.h>
+#include <GL/glut.h>
 
+static void keyboard(unsigned char key, int x, int y);
+static void display(void);
 
-int main()
+int main(int argc, char* argv[])
 {
-    return 0;
+	glutInit(&argc, argv);
+	glutCreateWindow("GLUT Test");
+	glutKeyboardFunc(&keyboard);
+	glutDisplayFunc(&display);
+	glutMainLoop();
+
+	return 0;
 }
+
+static void keyboard(unsigned char key, int x, int y)
+{
+	switch (key)
+	{
+	case '\x1B':
+		exit(EXIT_SUCCESS);
+		break;
+	}
+}
+
+
+static void display()
+{
+	glClear(GL_COLOR_BUFFER_BIT);
+
+	glColor3f(1.0f, 0.0f, 0.0f);
+
+	glBegin(GL_POLYGON);
+	glVertex2f(-0.5f, -0.5f);
+	glVertex2f(0.5f, -0.5f);
+	glVertex2f(0.5f, 0.5f);
+	glVertex2f(-0.5f, 0.5f);
+	glEnd();
+
+	glFlush();
+}
+
 
