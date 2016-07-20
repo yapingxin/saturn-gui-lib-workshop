@@ -23,7 +23,7 @@ static void init(void);
 static void reshape(int w, int h);
 
 FTGLPixmapFont *freeTypeFont = NULL;
-wchar_t str[128] = L"FTGL 中文输出测试 _そしてURL待クロ";
+wchar_t display_wtext[128] = L"FTGL 中文输出测试 _そしてURL待クロ";
 
 
 int main(int argc, char** argv)
@@ -84,7 +84,7 @@ static void display(void)
 
 	glColor4f(1.0f, 0.0f, 0.0f, 1.0f);
 	glRasterPos2f(0.2, 0.5);
-	freeTypeFont->Render(str);
+	freeTypeFont->Render(display_wtext);
 
 	glutSwapBuffers();
 }
